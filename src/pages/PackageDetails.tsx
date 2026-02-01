@@ -55,8 +55,8 @@ export function PackageDetails() {
                                         <span className="text-sm font-medium">{pkg.rating}</span>
                                     </div>
                                 </div>
-                                <h1 className="text-4xl md:text-6xl font-serif text-white mb-2">{pkg.title}</h1>
-                                <div className="flex items-center gap-6 text-sm text-gray-300">
+                                <h1 className="text-3xl md:text-6xl font-serif text-white mb-4">{pkg.title}</h1>
+                                <div className="flex flex-wrap items-center gap-4 md:gap-6 text-xs text-gray-300">
                                     <div className="flex items-center gap-2">
                                         <Clock className="w-4 h-4 text-gold" />
                                         <span>{pkg.duration}</span>

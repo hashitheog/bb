@@ -40,7 +40,7 @@ export function ExperienceTiers() {
                     <h2 className="font-serif text-5xl text-white">Choose Your Level of Grace</h2>
                 </div>
 
-                <div className="grid lg:grid-cols-3 gap-8 items-center">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 items-center">
                     {tiers.map((tier, index) => (
                         <motion.div
                             key={index}
@@ -48,7 +48,7 @@ export function ExperienceTiers() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className={`relative p-12 border ${tier.highlight ? 'border-gold bg-gold/5' : 'border-white/10 bg-white/5'} backdrop-blur-sm transition-all duration-500 hover:border-gold/50 hover:bg-gold/10`}
+                            className={`relative p-8 lg:p-12 border ${tier.highlight ? 'border-gold bg-gold/5' : 'border-white/10 bg-white/5'} backdrop-blur-sm transition-all duration-500 hover:border-gold/50 hover:bg-gold/10`}
                         >
                             {tier.highlight && (
                                 <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-obsidian border border-gold text-gold text-[10px] font-bold tracking-[0.2em] uppercase px-4 py-1 shadow-xl">

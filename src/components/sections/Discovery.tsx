@@ -47,20 +47,20 @@ export function Discovery() {
                     </div>
 
                     {/* Images - Asymmetrical Editorial Layout */}
-                    <div className="order-1 lg:order-2 relative h-[600px]">
+                    <div className="order-1 lg:order-2 relative h-[400px] lg:h-[600px] mb-12 lg:mb-0">
                         <motion.div
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1 }}
-                            className="absolute top-0 right-0 w-3/4 h-[400px] z-10"
+                            className="absolute top-0 right-0 w-3/4 h-[250px] lg:h-[400px] z-10"
                         >
                             <img
                                 src="/pilgrim_courtyard.png"
                                 alt="Spiritual Foundation"
-                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 rounded-2xl lg:rounded-none"
                             />
-                            <div className="absolute -bottom-6 -left-6 w-24 h-24 border border-gold/30 rounded-full flex items-center justify-center backdrop-blur-md">
-                                <span className="text-white text-xs font-serif italic text-center">Spiritual<br />Focus</span>
+                            <div className="absolute -bottom-4 -left-4 lg:-bottom-6 lg:-left-6 w-16 h-16 lg:w-24 lg:h-24 border border-gold/30 rounded-full flex items-center justify-center backdrop-blur-md">
+                                <span className="text-white text-[8px] lg:text-xs font-serif italic text-center">Spiritual<br />Focus</span>
                             </div>
                         </motion.div>
 
@@ -68,12 +68,12 @@ export function Discovery() {
                             initial={{ opacity: 0, y: -40 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 1, delay: 0.2 }}
-                            className="absolute bottom-0 left-0 w-2/3 h-[350px] z-0"
+                            className="absolute bottom-0 left-0 w-2/3 h-[200px] lg:h-[350px] z-0"
                         >
                             <img
                                 src="/alps_balcony.png"
                                 alt="Global Discovery"
-                                className="w-full h-full object-cover opacity-60 grayscale hover:opacity-100 transition-all duration-700"
+                                className="w-full h-full object-cover opacity-60 grayscale hover:opacity-100 transition-all duration-700 rounded-2xl lg:rounded-none"
                             />
                         </motion.div>
                     </div>

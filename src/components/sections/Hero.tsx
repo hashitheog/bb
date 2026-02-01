@@ -38,10 +38,10 @@ export function Hero() {
                             transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
                             className="flex flex-col items-center"
                         >
-                            <span className="text-[15vw] md:text-[12vw] font-serif text-white mix-blend-difference z-20 relative">
+                            <span className="text-[12vw] md:text-[8vw] lg:text-[12vw] font-serif text-white mix-blend-difference z-20 relative text-center leading-[0.9]">
                                 IMUSAFIR
                             </span>
-                            <span className="text-[4vw] md:text-[2vw] font-serif italic text-gold -mt-[2vw] md:-mt-[1vw] z-30 relative tracking-[0.2em] uppercase">
+                            <span className="text-[4vw] md:text-[2.5vw] lg:text-[2vw] font-serif italic text-gold -mt-[1vw] z-30 relative tracking-[0.2em] uppercase text-center">
                                 Beyond the Journey
                             </span>
                         </motion.div>
