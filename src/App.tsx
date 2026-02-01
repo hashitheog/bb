@@ -35,9 +35,9 @@ function MainContent() {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
 
-  if (loading) {
-    return <Preloader onComplete={() => setLoading(false)} />;
-  }
+  // if (loading) {
+  //   return <Preloader onComplete={() => setLoading(false)} />;
+  // }
 
   return (
     <div className="min-h-screen bg-obsidian text-white font-sans selection:bg-gold/30 hover:cursor-default cursor-none">
